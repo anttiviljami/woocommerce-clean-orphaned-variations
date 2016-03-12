@@ -1,5 +1,5 @@
 # WooCommerce Clean Orphaned Variations
-[![License](http://img.shields.io/:license-gpl3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
+[![Latest Stable Version](https://poser.pugx.org/anttiviljami/woocommerce-clean-orphaned-variations/version)](https://packagist.org/packages/anttiviljami/woocommerce-clean-orphaned-variations) [![Latest Unstable Version](https://poser.pugx.org/anttiviljami/woocommerce-clean-orphaned-variations/v/unstable)](//packagist.org/packages/anttiviljami/woocommerce-clean-orphaned-variations) [![Total Downloads](https://poser.pugx.org/anttiviljami/woocommerce-clean-orphaned-variations/downloads)](https://packagist.org/packages/anttiviljami/woocommerce-clean-orphaned-variations)
 
 Adds a tool to the WooCommerce tools page which finds and deletes any Product variations without parents.
 
