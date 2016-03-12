@@ -1,0 +1,13 @@
+{
+    "name": "anttiviljami/woocommerce-clean-orphaned-variations",
+    "description": "Adds a tool to the WooCommerce tools page, which finds and deletes any Product variations without parents.",
+    "type": "wordpress-plugin",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Antti Kuosmanen",
+            "email": "antti@seravo.fi"
+        }
+    ],
+    "require": {}
+}
