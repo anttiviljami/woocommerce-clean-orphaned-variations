@@ -31,7 +31,7 @@ This small tool is a quick and easy fix for those situations.
 
 Please contribute to this project on Github. Pull requests welcome!
 
-https://github.com/anttiviljami/wp-libre-form
+https://github.com/anttiviljami/woocommerce-clean-orphaned-variations
 
 == Installation ==
 
