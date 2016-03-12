@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin name: WooCommerce Clean Orphaned Variations
- * Plugin URI: https://github.com/Seravo/woocommerce-clean-orphaned-variations
+ * Plugin URI: https://github.com/anttiviljami/woocommerce-clean-orphaned-variations
  * Description: Adds a tool to the WooCommerce tools page which finds and deletes any Product variations without parents.
  * Version: 1.0
  * Author: @anttiviljami
- * Author: https://github.com/anttiviljami
+ * Author URI: https://github.com/anttiviljami
  * License: GPLv3
  * Text Domain: woocommerce-clean-orphaned-variations
  */

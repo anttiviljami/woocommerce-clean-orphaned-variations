@@ -1,7 +1,7 @@
 === WooCommerce Clean Orphaned Variations ===
 Contributors: Zuige
 Tags: Woocommerce, Tool, Tools, Clean, Orphaned, Variations
-Donate link: https://seravo.fi/
+Donate link: https://github.com/anttiviljami
 Requires at least: 4.3.1
 Tested up to: 4.4
 Stable tag: 1.0
