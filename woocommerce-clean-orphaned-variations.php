@@ -35,16 +35,31 @@ if (!class_exists('WooCommerce_Clean_Orphaned_Variations')) {
     }
 
     private function __construct() {
+      add_filter( 'woocommerce_debug_tools', array( $this, 'add_woocommerce_tool' ) );
+
       // load textdomain for translations
       add_action( 'plugins_loaded',  array( $this, 'load_our_textdomain' ) );
     }
 
     /**
+     * Adds a tool to the WooCommerce tools
+     */
+    public function add_woocommerce_tool( $tools ) {
+      $tools['clean_orphaned_variations'] = array(
+        'name'    => __( 'Delete variation products with no parent', 'woocommerce-clean-orphaned-variations' ),
+        'button'  => __( 'Clean Orphaned Variations', 'woocommerce-clean-orphaned-variations' ),
+        'desc'    => __( '<strong class="red">Note:</strong> This option will delete all posts of type product_variation with no existing parent, use with caution!', 'woocommerce-clean-orphaned-variations' ),
+      );
+			return $tools;
+    }
+
+    /**
      * Load our textdomain
      */
-    function load_our_textdomain() {
+    public function load_our_textdomain() {
       load_plugin_textdomain( 'woocommerce-clean-orphaned-variations', false, dirname( plugin_basename(__FILE__) ) . '/lang/' );
     }
+  }
 }
 
 // init the plugin
