@@ -25,7 +25,23 @@ This small tool is a quick and easy fix for those situations.
 
 ## Installation
 
-1. Upload plugin to the `/wp-content/plugins/` directory.
-2. Activate the plugin through the "Plugins" menu in WordPress.
-3. Installation done!
+### The Composer Way (preferred)
+
+Install the plugin via [Composer](https://getcomposer.org/)
+```
+composer require anttiviljami/woocommerce-clean-orphaned-variations
+```
+
+Activate the plugin
+```
+wp plugin activate woocommerce-clean-orphaned-variations
+```
+
+### The Old Fashioned Way
+
+You can also install the plugin by directly uploading the zip file as instructed below:
+
+1. [Download the plugin](https://github.com/anttiviljami/woocommerce-clean-orphaned-variations/archive/master.zip)
+2. Upload to the plugin to /wp-content/plugins/ via the WordPress plugin uploader or your preferred method
+3. Activate the plugin
 
