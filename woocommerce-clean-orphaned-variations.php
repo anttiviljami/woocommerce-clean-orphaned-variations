@@ -81,6 +81,11 @@ if (!class_exists('WooCommerce_Clean_Orphaned_Variations')) {
      * along with &action=clean_orphaned_variations
      */
     public function handle_woocommerce_tool() {
+
+      if( empty( $_REQUEST['page'] ) || empty( $_REQUEST['tab'] ) ) {
+          return;
+      }
+      
       // check that we are on woocommerce system status admin page
       if( 'wc-status' != $_REQUEST['page'] ) {
         return;
